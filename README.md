@@ -12,8 +12,8 @@
 > 요구사항이 주어진 과제를 테스트에 의해 주도되는 방법으로 실제 개발을 진행해보고자 합니다.
 > 
 > [Tdd 실습 Blog](https://mangkyu.tistory.com/182)에서 주어진 과제를 분석하고, TDD 기반으로 개발해보며 TDD 를 학습하는 레포지토리입니다. 
-> 
-> 
+>
+
 ### 문제 설명
 - 구현할 대상은 멤버십 적립 서비스입니다.
 - 현재 지원중인 멤버십에는 네이버, 카카오, 라인 3가지 멤버십이 있으며, 사용자는 원하는 멤버십을 등록할 수 있습니다.
@@ -53,10 +53,10 @@
     - 응답: X
 
 ### 기술 요구 사항
-- 개발 언어: Java 8
+- 개발 언어: Java 11
 - Framework: Spring Boot
 - ORM: JPA
-- DB: Mysql/H2
+- DB: Mysql/H2 
 
 ###  Reference
 [Tdd 실습 Blog](https://mangkyu.tistory.com/182)

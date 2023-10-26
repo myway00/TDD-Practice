@@ -21,10 +21,11 @@ public class Membership {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false)
     private Long id;
 
-    @Column(nullable = false, length = 20)
-    private String membershipName;
+    @Enumerated(EnumType.STRING)
+    private MembershipType membershipType;
 
     @Column(nullable = false)
     private String userId;
@@ -38,6 +39,6 @@ public class Membership {
     private LocalDateTime createdAt;
 
     @UpdateTimestamp
-    @Column(nullable = true, length = 20)
+    @Column(length = 20)
     private LocalDateTime updatedAt;
 }
